@@ -8,7 +8,7 @@ const toCurr = document.querySelector(".to select");
 const msg = document.querySelector(".msg");
 
 // Load click sound
-const clickSound = new Audio('./images/sound2.mp3');
+const clickSound = new Audio('sound2.mp3');
 
 for (let select of dropdowns) {
   for (currCode in countryList) {
